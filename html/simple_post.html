@@ -1,0 +1,27 @@
+<html>
+	<head><title>OurBricks Simple Post Form Upload</title></head>
+	<body>
+	<h2>OurBricks Simple Post Form Upload</h2>
+	<form action="http://ourbricks.com/api/upload-form" method="POST">
+	<input type="hidden" name="consumer_key" value="YOUR_KEY_HERE"></input>
+	<input type="hidden" name="file_url" value="http://YOUR/URL/HERE"></input>
+	<ul>
+	<li>title = <input type="text" name="title"></input></li>
+	<li>description = <input type="text" name="description"></input></li>
+	<li>tags = <input type="text" name="tags"></input></li>
+	<li>author = <input type="text" name="author"></input></li>
+	<li>license =
+	<select name="license">
+		<option value=""></option>
+		<option value="CC Attribution">CC Attribution</option>
+		<option value="CC Attribution-NonCommercial">CC Attribution-NonCommercial</option>
+		<option value="CC Attribution-NonCommercial-NoDerivs">CC Attribution-NonCommercial-NoDerivs</option>
+		<option value="CC0 (Public Domain)">CC0 (Public Domain)</option>
+		<option value="All Rights Reserved">All Rights Reserved</option>
+	</select>
+	</li>
+	<li><input type="submit"></input></li>
+	</ul>
+	</form>
+	</body>
+</html>
