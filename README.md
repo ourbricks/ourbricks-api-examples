@@ -14,4 +14,4 @@ a URL to the file
 If you are interested in getting an API key, please [contact
 OurBricks support](http://ourbricks.zendesk.com/anonymous_requests/new).
 
-For documentation on the OurBricks API, see the [OurBricks API Wiki Documentation][https://github.com/ourbricks/ourbricks-api-examples/wiki/API-Documentation]
+For documentation on the OurBricks API, see the [OurBricks API Wiki Documentation](https://github.com/ourbricks/ourbricks-api-examples/wiki/API-Documentation)
